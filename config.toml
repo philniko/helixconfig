@@ -1,0 +1,47 @@
+theme = "kanagawa"
+
+[editor]
+cursorline = true
+cursorcolumn = false
+true-color = true
+line-number = "relative"
+scroll-lines = 1
+auto-format = true
+auto-save = true
+mouse = false
+scrolloff = 10
+bufferline = "always"
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+
+[editor.whitespace.render]
+space="all"
+tab="all"
+
+[editor.file-picker]
+hidden = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "SEL"
+left = ["mode", "spinner", "file-name"]
+center = ["version-control", "workspace-diagnostics"]
+right = ["diagnostics", "selections", "position", "file-type", "file-encoding"]
+separator = "|"
+
+[editor.indent-guides]
+render = true
+character = "|"
+
+[editor.lsp]
+display-messages = true
