@@ -7,7 +7,6 @@ true-color = true
 line-number = "relative"
 scroll-lines = 1
 auto-format = true
-auto-save = true
 mouse = false
 scrolloff = 10
 bufferline = "always"
@@ -17,6 +16,9 @@ bufferline = "always"
 '{' = '}'
 '[' = ']'
 '"' = '"'
+
+[editor.soft-wrap]
+enable = true
 
 [editor.whitespace.render]
 space="all"
